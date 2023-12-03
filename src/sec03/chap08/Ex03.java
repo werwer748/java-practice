@@ -11,10 +11,20 @@ public class Ex03 {
                 {4, 5},
                 {6, 7, 8, 9},
         };
+        int[][] dblIntAry2 = {
+                //  ⭐️ 요소 배열의 크기가 다를 수 있음
+                {1, 4, 3},
+                {4, 5},
+                {6, 7, 8, 18},
+        };
 
         int int1 = dblIntAry[0][1];
         int int2 = dblIntAry[2][3];
         int[] intAry = dblIntAry[1];
+
+        int int11 = dblIntAry2[0][1];
+        int int21 = dblIntAry2[2][3];
+        int[] intAry1 = dblIntAry2[1];
 
         //  삼중 배열
         char[][][] trpChrAry = {

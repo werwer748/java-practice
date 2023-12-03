@@ -5,7 +5,7 @@ public class Ex02 {
         //  초기화 블록을 사용한 선언 동시 초기화
         //  두 가지 방법 사용 가능
         char[] dirAry1 = {'동', '서', '남', '북'};
-        char[] dirAry2 = new char [] {'동', '서', '남', '북'};
+        char[] dirAry2 = new char [] {'동', '서', '남', '북'}; // FM
 
         char[] dirAry3;
 
